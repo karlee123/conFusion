@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){   
              $("#mycarousel").carousel({interval: 2000});
             $("#carousel-button").click(function(){
               if ($("#carousel-button").children("span").hasClass('fa-pause')) {
@@ -12,4 +12,16 @@ $(document).ready(function(){
                     $("#carousel-button").children("span").addClass('fa-pause');                    
                 }
              });
+       
+            //-- assignment 4 -- add reserve table
+             $("#rtable-button").click(function(){
+                 $('#reserveModal').modal('toggle');
+             });
+             // -- assignment 4 -- add login 
+             $("#login-button").click(function(){
+                 $('#loginModal').modal('toggle');
+             });
+             // -- end of assignment 4 --
+    
         });
+

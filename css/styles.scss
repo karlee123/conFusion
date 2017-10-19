@@ -49,6 +49,7 @@ body {
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
+
 .carousel {
     background:$background-dark;
 
@@ -67,3 +68,20 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+//assignment 4 modal
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;
+    
+    .close {
+         color: floralwhite;
+      }
+}
+.modal-body {
+    background: $background-pale;
+}
+.modal-footer {
+    background: $background-light;
+}
+//end of assignment 4 modal
